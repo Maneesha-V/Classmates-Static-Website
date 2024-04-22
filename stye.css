@@ -1,0 +1,62 @@
+.button-design{
+    border-radius: 3rem;
+    width: 12rem;
+    background-color: darkblue;
+}
+.button-explore{
+    border-radius: 3rem;
+    width: 8rem;
+    background-color: darkblue;
+}
+.button-explore-now{
+    border-radius: 3rem;
+    width: 15rem;
+    background-color: darkblue;
+}
+.overwhelm-div{
+    padding: 7rem;
+    margin-top: 0rem;
+}
+.button-right{
+    width: 3rem;
+    background: #080808;
+    border-radius: 10px 0 0 0;
+    position: fixed;
+    z-index: 1;
+    right: 0rem;
+    top: 15rem;
+    padding: 0rem;
+    border: 0px;
+}
+.a-button{
+    width: 3rem;
+    border-radius: 10px 0 0 0;
+    position: fixed;
+    z-index: 1;
+    right: 2rem;
+    top: 33rem;
+    padding: 0rem;
+    
+}
+.loading {
+    display: inline-block;
+    animation: rotation 2s none infinite linear normal;
+    transform: rotate(360deg);
+    position: absolute;
+    background: #0d0c0c;
+    width: 12rem;
+    height: 2rem;
+  }
+  
+  @keyframes rotation {
+    50% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  .fixed-text{
+    position: relative;
+    /* z-index: 1; */
+  }
